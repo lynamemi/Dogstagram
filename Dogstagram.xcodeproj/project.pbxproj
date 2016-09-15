@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8CCEE581D8AF98400D0BE8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE571D8AF98400D0BE8F /* AppDelegate.swift */; };
+		A8CCEE5A1D8AF98400D0BE8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE591D8AF98400D0BE8F /* ViewController.swift */; };
+		A8CCEE5D1D8AF98400D0BE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CCEE5B1D8AF98400D0BE8F /* Main.storyboard */; };
+		A8CCEE601D8AF98400D0BE8F /* Dogstagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE5E1D8AF98400D0BE8F /* Dogstagram.xcdatamodeld */; };
+		A8CCEE621D8AF98400D0BE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CCEE611D8AF98400D0BE8F /* Assets.xcassets */; };
+		A8CCEE651D8AF98400D0BE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CCEE631D8AF98400D0BE8F /* LaunchScreen.storyboard */; };
+		A8CCEE701D8AF98400D0BE8F /* DogstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE6F1D8AF98400D0BE8F /* DogstagramTests.swift */; };
+		A8CCEE7B1D8AF98400D0BE8F /* DogstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE7A1D8AF98400D0BE8F /* DogstagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8CCEE6C1D8AF98400D0BE8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8CCEE4C1D8AF98400D0BE8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8CCEE531D8AF98400D0BE8F;
+			remoteInfo = Dogstagram;
+		};
+		A8CCEE771D8AF98400D0BE8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8CCEE4C1D8AF98400D0BE8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8CCEE531D8AF98400D0BE8F;
+			remoteInfo = Dogstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8CCEE541D8AF98400D0BE8F /* Dogstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CCEE571D8AF98400D0BE8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8CCEE591D8AF98400D0BE8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8CCEE5C1D8AF98400D0BE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8CCEE5F1D8AF98400D0BE8F /* Dogstagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dogstagram.xcdatamodel; sourceTree = "<group>"; };
+		A8CCEE611D8AF98400D0BE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8CCEE641D8AF98400D0BE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8CCEE661D8AF98400D0BE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CCEE6B1D8AF98400D0BE8F /* DogstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CCEE6F1D8AF98400D0BE8F /* DogstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogstagramTests.swift; sourceTree = "<group>"; };
+		A8CCEE711D8AF98400D0BE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CCEE761D8AF98400D0BE8F /* DogstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CCEE7A1D8AF98400D0BE8F /* DogstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogstagramUITests.swift; sourceTree = "<group>"; };
+		A8CCEE7C1D8AF98400D0BE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8CCEE511D8AF98400D0BE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CCEE681D8AF98400D0BE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CCEE731D8AF98400D0BE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8CCEE4B1D8AF98400D0BE8F = {
+			isa = PBXGroup;
+			children = (
+				A8CCEE561D8AF98400D0BE8F /* Dogstagram */,
+				A8CCEE6E1D8AF98400D0BE8F /* DogstagramTests */,
+				A8CCEE791D8AF98400D0BE8F /* DogstagramUITests */,
+				A8CCEE551D8AF98400D0BE8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8CCEE551D8AF98400D0BE8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8CCEE541D8AF98400D0BE8F /* Dogstagram.app */,
+				A8CCEE6B1D8AF98400D0BE8F /* DogstagramTests.xctest */,
+				A8CCEE761D8AF98400D0BE8F /* DogstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8CCEE561D8AF98400D0BE8F /* Dogstagram */ = {
+			isa = PBXGroup;
+			children = (
+				A8CCEE571D8AF98400D0BE8F /* AppDelegate.swift */,
+				A8CCEE591D8AF98400D0BE8F /* ViewController.swift */,
+				A8CCEE5B1D8AF98400D0BE8F /* Main.storyboard */,
+				A8CCEE611D8AF98400D0BE8F /* Assets.xcassets */,
+				A8CCEE631D8AF98400D0BE8F /* LaunchScreen.storyboard */,
+				A8CCEE661D8AF98400D0BE8F /* Info.plist */,
+				A8CCEE5E1D8AF98400D0BE8F /* Dogstagram.xcdatamodeld */,
+			);
+			path = Dogstagram;
+			sourceTree = "<group>";
+		};
+		A8CCEE6E1D8AF98400D0BE8F /* DogstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8CCEE6F1D8AF98400D0BE8F /* DogstagramTests.swift */,
+				A8CCEE711D8AF98400D0BE8F /* Info.plist */,
+			);
+			path = DogstagramTests;
+			sourceTree = "<group>";
+		};
+		A8CCEE791D8AF98400D0BE8F /* DogstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8CCEE7A1D8AF98400D0BE8F /* DogstagramUITests.swift */,
+				A8CCEE7C1D8AF98400D0BE8F /* Info.plist */,
+			);
+			path = DogstagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8CCEE531D8AF98400D0BE8F /* Dogstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CCEE7F1D8AF98400D0BE8F /* Build configuration list for PBXNativeTarget "Dogstagram" */;
+			buildPhases = (
+				A8CCEE501D8AF98400D0BE8F /* Sources */,
+				A8CCEE511D8AF98400D0BE8F /* Frameworks */,
+				A8CCEE521D8AF98400D0BE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dogstagram;
+			productName = Dogstagram;
+			productReference = A8CCEE541D8AF98400D0BE8F /* Dogstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8CCEE6A1D8AF98400D0BE8F /* DogstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CCEE821D8AF98400D0BE8F /* Build configuration list for PBXNativeTarget "DogstagramTests" */;
+			buildPhases = (
+				A8CCEE671D8AF98400D0BE8F /* Sources */,
+				A8CCEE681D8AF98400D0BE8F /* Frameworks */,
+				A8CCEE691D8AF98400D0BE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8CCEE6D1D8AF98400D0BE8F /* PBXTargetDependency */,
+			);
+			name = DogstagramTests;
+			productName = DogstagramTests;
+			productReference = A8CCEE6B1D8AF98400D0BE8F /* DogstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8CCEE751D8AF98400D0BE8F /* DogstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8CCEE851D8AF98400D0BE8F /* Build configuration list for PBXNativeTarget "DogstagramUITests" */;
+			buildPhases = (
+				A8CCEE721D8AF98400D0BE8F /* Sources */,
+				A8CCEE731D8AF98400D0BE8F /* Frameworks */,
+				A8CCEE741D8AF98400D0BE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8CCEE781D8AF98400D0BE8F /* PBXTargetDependency */,
+			);
+			name = DogstagramUITests;
+			productName = DogstagramUITests;
+			productReference = A8CCEE761D8AF98400D0BE8F /* DogstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8CCEE4C1D8AF98400D0BE8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Emily Lynam";
+				TargetAttributes = {
+					A8CCEE531D8AF98400D0BE8F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X72T4D323B;
+						ProvisioningStyle = Automatic;
+					};
+					A8CCEE6A1D8AF98400D0BE8F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X72T4D323B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8CCEE531D8AF98400D0BE8F;
+					};
+					A8CCEE751D8AF98400D0BE8F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X72T4D323B;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8CCEE531D8AF98400D0BE8F;
+					};
+				};
+			};
+			buildConfigurationList = A8CCEE4F1D8AF98400D0BE8F /* Build configuration list for PBXProject "Dogstagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8CCEE4B1D8AF98400D0BE8F;
+			productRefGroup = A8CCEE551D8AF98400D0BE8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8CCEE531D8AF98400D0BE8F /* Dogstagram */,
+				A8CCEE6A1D8AF98400D0BE8F /* DogstagramTests */,
+				A8CCEE751D8AF98400D0BE8F /* DogstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8CCEE521D8AF98400D0BE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CCEE651D8AF98400D0BE8F /* LaunchScreen.storyboard in Resources */,
+				A8CCEE621D8AF98400D0BE8F /* Assets.xcassets in Resources */,
+				A8CCEE5D1D8AF98400D0BE8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CCEE691D8AF98400D0BE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CCEE741D8AF98400D0BE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8CCEE501D8AF98400D0BE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CCEE5A1D8AF98400D0BE8F /* ViewController.swift in Sources */,
+				A8CCEE601D8AF98400D0BE8F /* Dogstagram.xcdatamodeld in Sources */,
+				A8CCEE581D8AF98400D0BE8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CCEE671D8AF98400D0BE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CCEE701D8AF98400D0BE8F /* DogstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8CCEE721D8AF98400D0BE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CCEE7B1D8AF98400D0BE8F /* DogstagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8CCEE6D1D8AF98400D0BE8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8CCEE531D8AF98400D0BE8F /* Dogstagram */;
+			targetProxy = A8CCEE6C1D8AF98400D0BE8F /* PBXContainerItemProxy */;
+		};
+		A8CCEE781D8AF98400D0BE8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8CCEE531D8AF98400D0BE8F /* Dogstagram */;
+			targetProxy = A8CCEE771D8AF98400D0BE8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8CCEE5B1D8AF98400D0BE8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8CCEE5C1D8AF98400D0BE8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8CCEE631D8AF98400D0BE8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8CCEE641D8AF98400D0BE8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8CCEE7D1D8AF98400D0BE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8CCEE7E1D8AF98400D0BE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8CCEE801D8AF98400D0BE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X72T4D323B;
+				INFOPLIST_FILE = Dogstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilylynam.Dogstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8CCEE811D8AF98400D0BE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X72T4D323B;
+				INFOPLIST_FILE = Dogstagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilylynam.Dogstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A8CCEE831D8AF98400D0BE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X72T4D323B;
+				INFOPLIST_FILE = DogstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilylynam.DogstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dogstagram.app/Dogstagram";
+			};
+			name = Debug;
+		};
+		A8CCEE841D8AF98400D0BE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X72T4D323B;
+				INFOPLIST_FILE = DogstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilylynam.DogstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dogstagram.app/Dogstagram";
+			};
+			name = Release;
+		};
+		A8CCEE861D8AF98400D0BE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X72T4D323B;
+				INFOPLIST_FILE = DogstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilylynam.DogstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dogstagram;
+			};
+			name = Debug;
+		};
+		A8CCEE871D8AF98400D0BE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X72T4D323B;
+				INFOPLIST_FILE = DogstagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilylynam.DogstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dogstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8CCEE4F1D8AF98400D0BE8F /* Build configuration list for PBXProject "Dogstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CCEE7D1D8AF98400D0BE8F /* Debug */,
+				A8CCEE7E1D8AF98400D0BE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8CCEE7F1D8AF98400D0BE8F /* Build configuration list for PBXNativeTarget "Dogstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CCEE801D8AF98400D0BE8F /* Debug */,
+				A8CCEE811D8AF98400D0BE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8CCEE821D8AF98400D0BE8F /* Build configuration list for PBXNativeTarget "DogstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CCEE831D8AF98400D0BE8F /* Debug */,
+				A8CCEE841D8AF98400D0BE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8CCEE851D8AF98400D0BE8F /* Build configuration list for PBXNativeTarget "DogstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8CCEE861D8AF98400D0BE8F /* Debug */,
+				A8CCEE871D8AF98400D0BE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8CCEE5E1D8AF98400D0BE8F /* Dogstagram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8CCEE5F1D8AF98400D0BE8F /* Dogstagram.xcdatamodel */,
+			);
+			currentVersion = A8CCEE5F1D8AF98400D0BE8F /* Dogstagram.xcdatamodel */;
+			path = Dogstagram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8CCEE4C1D8AF98400D0BE8F /* Project object */;
+}

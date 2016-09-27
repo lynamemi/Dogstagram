@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84043E61D8BABD6001BD1E4 /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84043E51D8BABD6001BD1E4 /* DogCell.swift */; };
+		A85138E01D8C4C89003344B5 /* EditDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85138DF1D8C4C89003344B5 /* EditDogViewController.swift */; };
+		A85138E21D8C4CBD003344B5 /* EditDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85138E11D8C4CBD003344B5 /* EditDog.swift */; };
 		A8CCEE581D8AF98400D0BE8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE571D8AF98400D0BE8F /* AppDelegate.swift */; };
-		A8CCEE5A1D8AF98400D0BE8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE591D8AF98400D0BE8F /* ViewController.swift */; };
 		A8CCEE5D1D8AF98400D0BE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CCEE5B1D8AF98400D0BE8F /* Main.storyboard */; };
 		A8CCEE601D8AF98400D0BE8F /* Dogstagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE5E1D8AF98400D0BE8F /* Dogstagram.xcdatamodeld */; };
 		A8CCEE621D8AF98400D0BE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CCEE611D8AF98400D0BE8F /* Assets.xcassets */; };
 		A8CCEE651D8AF98400D0BE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CCEE631D8AF98400D0BE8F /* LaunchScreen.storyboard */; };
 		A8CCEE701D8AF98400D0BE8F /* DogstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE6F1D8AF98400D0BE8F /* DogstagramTests.swift */; };
 		A8CCEE7B1D8AF98400D0BE8F /* DogstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE7A1D8AF98400D0BE8F /* DogstagramUITests.swift */; };
+		A8CCEE8B1D8B07C000D0BE8F /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE8A1D8B07C000D0BE8F /* ImageCollectionViewController.swift */; };
+		A8CCEE8D1D8B396D00D0BE8F /* AddDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE8C1D8B396D00D0BE8F /* AddDogViewController.swift */; };
+		A8CCEE941D8B6DD200D0BE8F /* Dog+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE921D8B6DD100D0BE8F /* Dog+CoreDataClass.swift */; };
+		A8CCEE951D8B6DD200D0BE8F /* Dog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE931D8B6DD100D0BE8F /* Dog+CoreDataProperties.swift */; };
+		A8CCEE971D8B6FDF00D0BE8F /* AddDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CCEE961D8B6FDF00D0BE8F /* AddDog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A84043E51D8BABD6001BD1E4 /* DogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
+		A85138DF1D8C4C89003344B5 /* EditDogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDogViewController.swift; sourceTree = "<group>"; };
+		A85138E11D8C4CBD003344B5 /* EditDog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDog.swift; sourceTree = "<group>"; };
 		A8CCEE541D8AF98400D0BE8F /* Dogstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CCEE571D8AF98400D0BE8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8CCEE591D8AF98400D0BE8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8CCEE5C1D8AF98400D0BE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8CCEE5F1D8AF98400D0BE8F /* Dogstagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dogstagram.xcdatamodel; sourceTree = "<group>"; };
 		A8CCEE611D8AF98400D0BE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		A8CCEE761D8AF98400D0BE8F /* DogstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CCEE7A1D8AF98400D0BE8F /* DogstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogstagramUITests.swift; sourceTree = "<group>"; };
 		A8CCEE7C1D8AF98400D0BE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CCEE8A1D8B07C000D0BE8F /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
+		A8CCEE8C1D8B396D00D0BE8F /* AddDogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDogViewController.swift; sourceTree = "<group>"; };
+		A8CCEE921D8B6DD100D0BE8F /* Dog+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A8CCEE931D8B6DD100D0BE8F /* Dog+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A8CCEE961D8B6FDF00D0BE8F /* AddDog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +93,8 @@
 		A8CCEE4B1D8AF98400D0BE8F = {
 			isa = PBXGroup;
 			children = (
+				A8CCEE921D8B6DD100D0BE8F /* Dog+CoreDataClass.swift */,
+				A8CCEE931D8B6DD100D0BE8F /* Dog+CoreDataProperties.swift */,
 				A8CCEE561D8AF98400D0BE8F /* Dogstagram */,
 				A8CCEE6E1D8AF98400D0BE8F /* DogstagramTests */,
 				A8CCEE791D8AF98400D0BE8F /* DogstagramUITests */,
@@ -99,9 +115,14 @@
 		A8CCEE561D8AF98400D0BE8F /* Dogstagram */ = {
 			isa = PBXGroup;
 			children = (
+				A8CCEE8A1D8B07C000D0BE8F /* ImageCollectionViewController.swift */,
 				A8CCEE571D8AF98400D0BE8F /* AppDelegate.swift */,
-				A8CCEE591D8AF98400D0BE8F /* ViewController.swift */,
 				A8CCEE5B1D8AF98400D0BE8F /* Main.storyboard */,
+				A85138DF1D8C4C89003344B5 /* EditDogViewController.swift */,
+				A85138E11D8C4CBD003344B5 /* EditDog.swift */,
+				A84043E51D8BABD6001BD1E4 /* DogCell.swift */,
+				A8CCEE961D8B6FDF00D0BE8F /* AddDog.swift */,
+				A8CCEE8C1D8B396D00D0BE8F /* AddDogViewController.swift */,
 				A8CCEE611D8AF98400D0BE8F /* Assets.xcassets */,
 				A8CCEE631D8AF98400D0BE8F /* LaunchScreen.storyboard */,
 				A8CCEE661D8AF98400D0BE8F /* Info.plist */,
@@ -265,9 +286,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8CCEE5A1D8AF98400D0BE8F /* ViewController.swift in Sources */,
+				A8CCEE971D8B6FDF00D0BE8F /* AddDog.swift in Sources */,
+				A8CCEE951D8B6DD200D0BE8F /* Dog+CoreDataProperties.swift in Sources */,
+				A8CCEE8B1D8B07C000D0BE8F /* ImageCollectionViewController.swift in Sources */,
+				A84043E61D8BABD6001BD1E4 /* DogCell.swift in Sources */,
+				A85138E01D8C4C89003344B5 /* EditDogViewController.swift in Sources */,
+				A8CCEE941D8B6DD200D0BE8F /* Dog+CoreDataClass.swift in Sources */,
 				A8CCEE601D8AF98400D0BE8F /* Dogstagram.xcdatamodeld in Sources */,
 				A8CCEE581D8AF98400D0BE8F /* AppDelegate.swift in Sources */,
+				A85138E21D8C4CBD003344B5 /* EditDog.swift in Sources */,
+				A8CCEE8D1D8B396D00D0BE8F /* AddDogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +546,7 @@
 				A8CCEE811D8AF98400D0BE8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8CCEE821D8AF98400D0BE8F /* Build configuration list for PBXNativeTarget "DogstagramTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +555,7 @@
 				A8CCEE841D8AF98400D0BE8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8CCEE851D8AF98400D0BE8F /* Build configuration list for PBXNativeTarget "DogstagramUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +564,7 @@
 				A8CCEE871D8AF98400D0BE8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
